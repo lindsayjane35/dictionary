@@ -9,7 +9,17 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">Coded by Lindsay Land</footer>
+        <footer className="text-center">
+          This project was coded by Lindsay Land and is open-sourced on{" "}
+          <a
+            href="https://github.com/lindsayjane35/dictionary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+          .
+        </footer>
       </div>
     </div>
   );
