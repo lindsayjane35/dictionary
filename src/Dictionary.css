@@ -1,8 +1,9 @@
 .Dictionary section {
-  background-color: rgb(41, 41, 85);
+  background-color: rgb(191 191 193 / 12%);
   padding: 30px;
   border-radius: 10px;
   margin: 20px 0;
+  box-shadow: 10px 10px 10px rgb(4 4 4 / 12%);
 }
 .Dictionary input {
   width: 100%;
@@ -13,4 +14,9 @@
 .Dictionary .hint {
   font-size: 11px;
   margin-top: 5px;
+}
+.Dictionary h2 {
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 3px 2px rgb(12 12 12 / 76%);
 }

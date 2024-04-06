@@ -1,4 +1,27 @@
 body {
   background-color: rgb(13, 13, 59);
-  color: white;
+  color: #e1e3e5;
+  font-family: "Courier New", Courier, monospace;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+}
+h1 {
+  font-size: 25px;
+}
+header {
+  font-size: 50px;
+  font-weight: 900;
+  margin: 20px;
+}
+footer {
+  font-size: 13px;
+  margin: 20px;
+}
+footer a {
+  color: rgb(187 145 187);
+  text-decoration: none;
+  font-weight: 900;
 }

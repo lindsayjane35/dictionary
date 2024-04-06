@@ -10,7 +10,15 @@ export default function App() {
           <Dictionary defaultKeyword="dictionary" />
         </main>
         <footer className="text-center">
-          This project was coded by Lindsay Land and is open-sourced on{" "}
+          This project was coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/lindsay-land-673a742b/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Lindsay Land
+          </a>{" "}
+          and is open-sourced on{" "}
           <a
             href="https://github.com/lindsayjane35/dictionary"
             target="_blank"
